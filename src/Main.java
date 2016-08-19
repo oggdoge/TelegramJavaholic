@@ -23,7 +23,7 @@ public class Main extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "183358065:AAEVJiay8q1FabRQobB5B2x1jbmQryl5dc";
+        return "183358065:AAEVJiay8q1FabRQobB5PB2x1jbmQryI5dc";
     }
 
     @Override
@@ -48,6 +48,7 @@ public class Main extends TelegramLongPollingBot {
         } catch (TelegramApiException e) {
             e.printStackTrace();
         }
+
     }
 
 }
